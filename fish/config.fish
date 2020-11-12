@@ -1,8 +1,8 @@
 set -g fish_prompt_pwd_dir_length 1
 
-set -gx PATH "/home/link1j/.gem/ruby/2.6.0/bin" $PATH
+set -gx PATH "$HOME/.gem/ruby/2.6.0/bin" $PATH
 set -gx PATH "/usr/lib/emscripten" $PATH
-set -gx PATH "/home/link1j/.local/bin" $PATH
+set -gx PATH "$HOME/.local/bin" $PATH
 
 set -gx EDITOR /usr/bin/vim
 
